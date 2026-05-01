@@ -12,18 +12,18 @@ import Button from './Button';
 
 const projects = [
   {
-    title: 'Dogs',
-    desc: 'Projeto de rede social fictícia para cachorros realizado durante o curso de React da Origamid, usando React Hooks, Consumo de API com o Fetch e CSS modules',
-    thumb: Dogs,
-    app: 'https://hugocodes-dogs.netlify.app/',
-    github: 'https://github.com/HugoCodesBr/dogs',
-  },
-  {
     title: 'My Tasks',
     desc: 'Projeto de um gerenciador de tarefas com funções de edição, remoção e clonclusão das mesmas feito em React (Layout desenhado pro mim no Figma), usando React Hooks, Local Storage e SASS',
     thumb: MyTasks,
     app: 'https://hugocodes-mytasks.netlify.app/',
     github: 'https://github.com/HugoCodesBr/my-tasks',
+  },
+  {
+    title: 'Duopass',
+    desc: 'Projeto de website com foco no turismo feito em Wordpress usando HTML, SASS, Javascript, Jquery e Swiper',
+    thumb: Duopass,
+    app: 'https://duopass.com.br/',
+    github: '',
   },
   {
     title: 'Chamados',
@@ -40,11 +40,18 @@ const projects = [
     github: 'https://github.com/HugoCodesBr/movies_lib',
   },
   {
-    title: 'Duopass',
-    desc: 'Projeto de website com foco no turismo feito em Wordpress usando HTML, SASS, Javascript, Jquery e Swiper',
-    thumb: Duopass,
-    app: 'https://duopass.com.br/',
+    title: 'Instituto Humanize',
+    desc: 'Projeto de website de instituição feito em Wordpress usando HTML, SASS, Javascript, Jquery e Swiper',
+    thumb: Humanize,
+    app: 'https://www.ihumanize.org/',
     github: '',
+  },
+  {
+    title: 'Dogs',
+    desc: 'Projeto de rede social fictícia para cachorros realizado durante o curso de React da Origamid, usando React Hooks, Consumo de API com o Fetch e CSS modules',
+    thumb: Dogs,
+    app: 'https://hugocodes-dogs.netlify.app/',
+    github: 'https://github.com/HugoCodesBr/dogs',
   },
   {
     title: 'Iguatemi',
@@ -65,13 +72,6 @@ const projects = [
     desc: 'Projeto de website de restaurante feito em Wordpress usando HTML, SASS, Javascript, Jquery e Swiper',
     thumb: Cocobambu,
     app: 'https://cocobambu.com/',
-    github: '',
-  },
-  {
-    title: 'Instituto Humanize',
-    desc: 'Projeto de website de instituição feito em Wordpress usando HTML, SASS, Javascript, Jquery e Swiper',
-    thumb: Humanize,
-    app: 'https://www.ihumanize.org/',
     github: '',
   },
 ];
